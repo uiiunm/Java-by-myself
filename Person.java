@@ -1,9 +1,13 @@
-package com.ruby.java.bymyself;
+package assignment;
 
-public class Person {
-	private String name;
-	private int age;
-	private String subject;
+class Person {
+	public String name;
+	public int age;
+	public String subject;
+
+	public Person() {
+		System.out.println("Person 생성자 실행!");
+	}
 
 	public void person() {
 		name = "";
