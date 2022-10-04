@@ -7,8 +7,8 @@ class Person {
 
 	public Person(String name, int age, String subject) {
 		System.out.println("Person 생성자 실행!");
-		this.name = name;
-		this.age = age;
+		this.name = name; //
+		this.age = age; //
 		this.subject = subject; //
 	}
 
@@ -34,16 +34,16 @@ class Person {
 		this.age = age;
 	}
 
-	public String toString() {
-		return name + ":" + age + ":" + subject;
-	}
-
 	public String getSubject() {
 		return subject;
 	}
 
 	public void setSubject(String subject) {
 		this.subject = subject;
+	}
+
+	public String toString() {
+		return name + ":" + age + ":" + subject;
 	}
 
 }
