@@ -1,10 +1,10 @@
-package assignment;
+package com.ruby.java.bymyself;
 
 public class Employee extends Person {
 	private String dept;
 
 	public Employee(String name, int age, String subject, String dept) {
-		super();
+		super(name, age, subject);
 		this.dept = dept;
 		System.out.println("Employee(name, age, subject, dept) 생성자 실행!");
 	}

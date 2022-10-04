@@ -1,10 +1,10 @@
-package assignment;
+package com.ruby.java.bymyself;
 
 public class Student extends Person {
 	private String major;
 
 	public Student(String name, int age, String subject, String major) {
-		super();
+		super(name, age, subject);
 		this.major = major;
 		System.out.println("Student(name, age, subject, major) 생성자 실행!");
 	}

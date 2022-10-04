@@ -1,4 +1,4 @@
-package assignment;
+package com.ruby.java.bymyself;
 
 import java.util.ArrayList;
 import java.util.List;
